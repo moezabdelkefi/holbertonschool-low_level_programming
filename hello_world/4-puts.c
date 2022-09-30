@@ -2,9 +2,10 @@
 int main()
 {
 	
-    char Mystr[] = "C and C++";
+    char Mystr[] ="\"Programming is like building a multilingual puzzle\n";
     
-    puts(Mystr);"\ "Programming is like building a multilingual puzzle
+    puts(Mystr);
+
     
     return 0;
 }
