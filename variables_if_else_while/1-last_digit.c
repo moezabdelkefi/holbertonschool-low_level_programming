@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
+ *main - print random number to variable
  *Return: Always 0 (Success)
  */
 int main(void)
