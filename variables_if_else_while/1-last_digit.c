@@ -6,8 +6,9 @@
  *
  * Return: Always 0 (Success)
  */
-{
-    int n ;
+int main(void)
+{                                                 
+    int n;
     char last [] = "Last digit of";
     srand(time(0));
     n = rand() - RAND_MAX / 2;
