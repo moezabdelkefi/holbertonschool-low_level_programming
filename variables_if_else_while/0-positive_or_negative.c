@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Min : 1 Max : 40 %d\n", random_number(1,40));
-        printf("Min : 100 Max : 1000 %d\n",random_number(100,1000));
+	for (n = 0 ; n < 10 ; ++n)
+        printf("%g\n", my_rand());
 	return (0);
 }
