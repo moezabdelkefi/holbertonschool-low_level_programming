@@ -3,11 +3,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
  */
 int main(void)
-{                                                 
+{                                              
     int n;
     char last[] = "Last digit of";
     srand(time(0));
