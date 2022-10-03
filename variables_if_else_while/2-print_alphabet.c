@@ -2,14 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - print random number to variable
+ *main -a program that prints the alphabet in lowercase
  *Return: Always 0 (Success)
  */
 int main(void)
 {
-    char ch = 'a';
+char ch = 'a';
     for (ch = 'a'; ch <= 'z'; ch++)
-        putchar(ch);
-  
-    return (0);
+    putchar('\n');
+	return (0);
 }
