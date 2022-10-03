@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ( number > 0 )
+	if ( n > 0 )
     System.out.printf ( " % d is a Positive Number " , number ) ;
 	return (0);
 }
