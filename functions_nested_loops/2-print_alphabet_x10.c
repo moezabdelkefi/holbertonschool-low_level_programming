@@ -1,18 +1,22 @@
 #include "main.h"
 /**
- * main - check the code.
+ * print_alphabet_x10 - check the code.
  *
- * Return: Always 0.
+ * Return: Void.
  */
 void print_alphabet_x10(void)
 {
-    int i;
-    char c;
-    printf("i/c:- ")    
-    scanf(" %c" , &c); 
-    for (i = 0; i < 10; i++)
-{
-    printf(" %c\n", c);
-}
-    return (0);
+	int n, co;
+
+	co = 0;
+
+	while (co < 10)
+	{
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		co++;
+		_putchar('\n');
+	}
 }
