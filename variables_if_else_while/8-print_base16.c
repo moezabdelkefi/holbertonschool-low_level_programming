@@ -10,10 +10,10 @@ int main(void)
 	int num;
 	char letter;
 
-	for (num = 0; num < 9; num++)
-		putchar (num % 10 + '0')
+	for (num = 48; num <= 57; num++)
+		putchar(num);
 
-	for (letter = 'a'; letter <= 'f'; letter++)
+	for (letter = 97; letter <= 102; letter++)
 		putchar(letter);
 
 	putchar('\n');
