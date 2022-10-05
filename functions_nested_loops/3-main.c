@@ -6,15 +6,9 @@
  */
 int main(void)
 {
-int r;
-{
-	if (r >= 'a' && r <= 'z')
-		return (1);
-	else
-		return (0);
-}
+    int r;
 
-    r =_islower('H');
+    r = _islower('H');
     _putchar(r + '0');
     r = _islower('o');
     _putchar(r + '0');
