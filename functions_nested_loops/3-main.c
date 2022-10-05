@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * @c: single letter input
+ * Return: 0 or 1
  */
 int main(void)
 {

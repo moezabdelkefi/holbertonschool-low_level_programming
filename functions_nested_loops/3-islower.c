@@ -1,8 +1,8 @@
 #include "ctype.h"
 /**
- * main - check the code.
+ * _islower - check the character.
  * @c: single letter input
- * Return: 1 if int c is lowercase, 0 if otherwise
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
