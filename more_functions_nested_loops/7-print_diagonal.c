@@ -22,7 +22,6 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		_putchar(92);
 		_putchar('\n');
 	}
 }
