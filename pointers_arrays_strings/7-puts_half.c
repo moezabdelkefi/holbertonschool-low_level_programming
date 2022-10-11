@@ -8,11 +8,11 @@
 void puts_half(char *str)
 {
 
-int l, i,n;
+	int l, i, n;
 
 	l = strlen(str);
-	n = (l  / 2);
-	for (i = n; i <= l - 1; i++)
+	n = ((l - 1) / 2) +1;
+	for (i = n; i <= l; i++)
 	{
 		printf("%c", str[i]);
 	}
