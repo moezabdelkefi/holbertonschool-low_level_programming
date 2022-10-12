@@ -2,17 +2,17 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcpy - a function that concatenates two strings
+ * _strcat - a function that concatenates two strings
  *@dest: string
  *@src: string
  * Return: Always 0.
  */
-char *_strcpy(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int l, s;
 
-	l = strlen(src);
+ 	l = strlen(src);
 	s = strlen(dest);
 	for (i = '0'; i <= l; i++)
 	{
