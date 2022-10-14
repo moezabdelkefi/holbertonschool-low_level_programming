@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * leet -  function that encodes a string
- *@n: input string
- * Return: Always 0.
+ * leet - Entry point
+ * ONE if, TWO loops only...
+ * @n: input
+ * Return: Always 0 (Success)
  */
 char *leet(char *n)
 {
