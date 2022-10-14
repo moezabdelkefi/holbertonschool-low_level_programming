@@ -2,18 +2,17 @@
 #include <stdio.h>
 /**
  * string_toupper -  function that changes all lowercase 
- * Return: Always 0.
+ * @s: input string
+ * Return: s.
  */
 char *string_toupper(char *s)
 {
 	int i;
-	while (s[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] >= 'A' && s[i] <= 'Z')
-		{
+		if (s[i] >= 'a' && s[i] <= 'z')
+		
 			s[i] = s[i] - 32;
-		}
-		i++;
 	}
 	return (s);
 }
