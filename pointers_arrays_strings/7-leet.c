@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * leet - Entry point
+ * leet - unction that encodes a string into 1337
  * ONE if, TWO loops only...
  * @n: input
  * Return: Always 0 (Success)
