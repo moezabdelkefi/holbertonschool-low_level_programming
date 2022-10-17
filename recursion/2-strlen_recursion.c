@@ -3,10 +3,11 @@
 /**
  * _strlen_recursion - check the code
  *@s: input value
- * Return: Always 0.
+ * Return: .
  */
 int _strlen_recursion(char *s)
 {
-	 if (s[0] == 0) return 0;
-    return 1 + _strlen_recursion(s + 1);
+	if (s[0] == 0)
+		return (0);
+	return (1) + _strlen_recursion(s + 1);
 }
