@@ -1,4 +1,4 @@
-#include "ctype.h"
+#include "main.h"
 /**
  * _islower - check the character.
  * @c: single letter input
