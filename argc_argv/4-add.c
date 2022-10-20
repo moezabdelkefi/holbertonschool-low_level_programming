@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print number
+ * main - print positive number
  *@argv:input
  *@argc:input
  * Return:  0.
