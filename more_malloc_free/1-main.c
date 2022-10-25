@@ -9,13 +9,12 @@
 int main(void)
 {
     char *concat;
-	char *cn;
 
-    concat = string_nconcat("Best ", "School !!!", 6);
-	cn = string_nconcat("tik", "Hello", 12);
+
+    concat = string_nconcat("best ", "school !!!", 6);
+	
     printf("%s\n", concat);
-	printf("%s\n", cn);
     free(concat);
-	free(cn);
+	
     return (0);
 }
