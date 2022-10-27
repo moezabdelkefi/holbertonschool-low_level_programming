@@ -15,7 +15,11 @@ char *_strdup(char *str)
 		if (p != NULL)
 			strcpy(p, str);
 		return (p);
-
-	free(p);
+		free(p);
+		if (str == NULL)
+		{
+			return (NULL);
+		}
+		return (p);
 	}
 }
