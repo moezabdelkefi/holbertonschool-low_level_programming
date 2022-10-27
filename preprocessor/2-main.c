@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	char *f;
 
-	f = "2-main.c";
-	printf("%s\n", f);
+	printf("%s\n", __FILE__);
 	return (0);
 }
