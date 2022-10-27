@@ -10,20 +10,15 @@
 char *_strdup(char *str)
 {
 	{
-		char *p = malloc(strlen(str) + 1);
+		char *p;
 
+		if (str == 0)
+			str = "";
+		p = malloc(strlen(str) + 1);
+		if (p == 0)
+			return (NULL);
 		if (p != NULL)
 			strcpy(p, str);
 		return (p);
-		if (str == NULL)
-		{
-			return (NULL);
-		}
-
-		free(p);
-		if (p == NULL)
-		{
-			return ("");
-		}
 	}
 }
