@@ -4,7 +4,7 @@
 /**
  *get_op_func - selects the correct function to perform the operation
  *@s: input
- *return: 0.
+ *Return: 0.
  */
 int (*get_op_func(char *s))(int, int)
 {
