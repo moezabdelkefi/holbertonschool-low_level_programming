@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * add_op - Addition of the numbers
+ * op_add - Addition of the numbers
  *@a: input
  *@b: input
  * Return: the sum.
