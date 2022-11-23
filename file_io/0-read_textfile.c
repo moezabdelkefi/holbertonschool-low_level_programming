@@ -1,12 +1,16 @@
 #include "main.h"
-/***
- *
+/**
+ * read_textfile - a function that reads a text file and prints it
+ *@filename: argument
+ *@letters:argument
+ *Return: write that you printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, w, r;
 	char *ptr;
 	size_t i = 0;
+
 	if (filename == NULL)
 		return (0);
 	ptr = malloc(sizeof(char) * letters);
