@@ -2,6 +2,7 @@
 #define H_TABLE
 #include <stdio.h>
 #include <stdlib.h>
+#define CAPACITY 50000
 /**
  * struct hash_node_s - Node of a hash table
  *
@@ -31,5 +32,5 @@ typedef struct hash_table_s
 	hash_node_t **array;
 } hash_table_t;
 hash_table_t *hash_table_create(unsigned long int size);
-
+unsigned long int hash_djb2(const unsigned char *str);
 #endif
