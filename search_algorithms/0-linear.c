@@ -4,7 +4,7 @@
  * @array: is pointer to the first element
  * @size: number of the element
  * @value: value to search for
- * Return: 
+ * Return: (-1)
  */
 int linear_search(int *array, size_t size, int value)
 {
